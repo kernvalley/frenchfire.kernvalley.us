@@ -99,6 +99,40 @@
         - https://twitter.com/Bakersfieldcali
         - https://www.linkedin.com/company/the-bakersfield-californian
         - https://instagram.com/bakersfieldcali/
+- name: Elected Officials
+  entries:
+    - name: Kevin McCarthy
+      "@type": Person
+      url: https://kevinmccarthy.house.gov/
+      telephone: +1-661-327-3611
+      sameAs:
+        - https://www.facebook.com/RepKevinMcCarthy/
+        - https://twitter.com/GOPLeader
+    - name: Shannon Grove
+      "@type": Person
+      url: https://grove.cssrc.us/
+      telephone: +1-661-323-0443
+      sameAs:
+        - https://www.facebook.com/ShannonGroveCA
+        - https://twitter.com/ShannonGroveCA
+        - https://instagram.com/ShannonGroveCA/
+    - name: Devon Mathis
+      "@type": Person
+      url: https://ad26.asmrc.org/
+      telephone: +1-559-636-3440
+      sameAs:
+        - https://www.facebook.com/assemblymandevonmathis/
+        - https://twitter.com/AD26Mathis
+        - https://instagram.com/asmdevonmathis/
+    - name: Philip Peters
+      "@type": Person
+      url: https://www.kerncounty.com/government/board-of-supervisors/district-1
+      sameAs:
+        - https://www.facebook.com/CountyofKern/
+        - https://twitter.com/CountyofKern
+        - https://instagram.com/yourkerncounty/
+        - https://www.youtube.com/c/officialkerncounty
+        - https://www.linkedin.com/company/kern-county
 - name: Other
   entries:
     - name: Kern County Sheriff's Office
