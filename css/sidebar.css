@@ -6,16 +6,16 @@
 	--ad-block-image-width: var(--ad-block-width);
 }
 
+#sidebar > * {
+	margin-bottom: 0.6em;
+	width: var(--ad-block-width);
+	max-width: 100%;
+}
+
 @media (max-width: 800px) {
 	#sidebar {
 		--ad-block-width: 95vw;
 	}
-}
-
-#sidebar > * {
-	margin-bottom: 0.6em;
-	width: 30vw;
-	max-width: 100%;
 }
 
 details.accordion[open] > :not(summary) {
