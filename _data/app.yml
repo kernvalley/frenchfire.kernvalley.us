@@ -52,9 +52,9 @@ shortcuts:
     description: Test article and shortcut
     url: /pets/
     icons:
-    - src: /img/shortcuts/pets.svg
-      sizes: 192x192
-      type: image/svg+xml
+    # - src: /img/shortcuts/pets.svg
+    #   sizes: 192x192
+    #   type: image/svg+xml
     - src: /img/shortcuts/pets-192.png
       sizes: 192x192
       type: image/png
@@ -77,9 +77,9 @@ shortcuts:
     description: List of recent changes
     url: /contacts/
     icons:
-    - src: /img/shortcuts/contacts.svg
-      sizes: 192x192
-      type: image/svg+xml
+    # - src: /img/shortcuts/contacts.svg
+    #   sizes: 192x192
+    #   type: image/svg+xml
     - src: /img/shortcuts/contacts-192.png
       sizes: 192x192
       type: image/png
@@ -99,15 +99,13 @@ shortcuts:
       sizes: 36x36
       type: image/png
     - name: Resources
-  - name: Fire Updates
-    description: List of recent changes
   - name: News
     description: List of recent changes
     url: /news/
     icons:
-    - src: /img/shortcuts/news.svg
-      sizes: 192x192
-      type: image/svg+xml
+    # - src: /img/shortcuts/news.svg
+    #   sizes: 192x192
+    #   type: image/svg+xml
     - src: /img/shortcuts/news-192.png
       sizes: 192x192
       type: image/png
