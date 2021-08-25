@@ -3,8 +3,8 @@ nav:
     icon: home
     href: /
   - label: Map
-    icon: link
-    href: /fire/
+    icon: map
+    href: /map/
   - label: News
     icon: news
     href: /news/
