@@ -4,7 +4,7 @@ layout: default
 pinned: true
 index: true
 no-header: true
-description: Map of the French Fire
+description: Map of the French Fire provided by GISsurfer
 tags:
   - french fire
   - map
@@ -20,5 +20,17 @@ imgur: https://i.imgur.com/VecO3Jz.png
 image: https://i.imgur.com/VecO3Jz.png
 zoom: 11
 ---
-<iframe id="fire-map" class="card full-width" width="600" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://mappingsupport.com/p2/gissurfer.php?center={{ page.latitude }},{{ page.longitude }}&zoom={{ page.zoom }}&basemap={{ page.titles }}&overlay=VIIRS_24_hours,MODIS_24_hours,State_boundary,Wildland_fire_name,County,ESRI_roads_and_labels&fire=CA,French&data=https://mappingsupport.com/p2/special_maps/disaster/USA_wildland_fire.txt" sandbox="allow-scripts allow-same-origin" loading="lazy" referrerpolicy="origin"></iframe>
-<button type="button" class="btn btn-primary" data-full-screen="#fire-map">Fullscreen</button>
+<section>
+	<iframe id="fire-map" class="card full-width" width="600" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://mappingsupport.com/p2/gissurfer.php?center={{ page.latitude }},{{ page.longitude }}&zoom={{ page.zoom }}&basemap={{ page.titles }}&overlay=VIIRS_24_hours,MODIS_24_hours,State_boundary,Wildland_fire_name,County,ESRI_roads_and_labels&fire=CA,French&data=https://mappingsupport.com/p2/special_maps/disaster/USA_wildland_fire.txt" sandbox="allow-scripts allow-same-origin allow-popups" loading="lazy" referrerpolicy="no-referrer"></iframe>
+	<br />
+	<button type="button" class="btn btn-primary" data-full-screen="#fire-map">Fullscreen</button>
+	<hr />
+	<p>Embedded Map provided by <a href="https://mappingsupport.com/p2/gissurfer.php" rel="noopener noreferrer external">GISsurfer</a>.</p>
+	{% if include.share != false %}{% include common/share-buttons.html
+		facebook=true
+		twitter=true
+		reddit=true
+		linkedin=true
+		text=include.description
+	%}{% endif %}
+</section>

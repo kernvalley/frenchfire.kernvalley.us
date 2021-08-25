@@ -6,6 +6,15 @@ layout: default
 pinned: true
 no-header: true
 ---
+<section>
+	{% if include.share != false %}{% include common/share-buttons.html
+		facebook=true
+		twitter=true
+		reddit=true
+		linkedin=true
+		text=include.description
+	%}{% endif %}
+</section>
 {% for section in site.data.contacts %}
 	<section id="{{ section.name | sluggify }}">
 		<h2 class="center sticky top z-2 contact-section-name">{{ section.name | escape }}</h2>

@@ -19,7 +19,8 @@ tags:
   - kernville
   - fema
 ---
-## [Press Release]()
+## [Press Release](https://www.fema.gov/press-release/20210825/fema-fire-management-assistance-granted-french-fire)
+
 **OAKLAND, Calif.** – The Federal Emergency Management Agency (FEMA) has authorized the use of federal funds to assist the state of California in combating the French Fire burning in Kern County.
 
 On Aug. 24, the state of California submitted a request for a Fire Management Assistance Grant (FMAG) for the French Fire. At the time of the request, the fire threatened approximately 4,000 homes in and around Wofford Heights and Kernville. The fire also threatened dozens of businesses, schools, a fire station, wildfire alert cameras, cell towers, power and transmission lines, and the Alta Sierra water tanks, which provide water to residents and firefighting hydrants in the area.
