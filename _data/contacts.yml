@@ -124,3 +124,34 @@
       telephone: +1-800-323-2396
       sameAs:
         - https://twitter.com/KernTransit
+    - name: Caltrans
+      url: https://dot.ca.gov/caltrans-near-me/district-6
+      email: d6.public.info@dot.ca.gov
+      telephone: +1-559-444-2518
+      sameAs:
+        - https://www.facebook.com/CaltransHQ
+        - https://twitter.com/CaltransHQ
+    - name: Southern California Edison
+      url: https://www.sce.com/
+      sameAs:
+        - https://www.facebook.com/SCE
+        - https://twitter.com/SCE
+        - https://instagram.com/SCE
+        - https://www.youtube.com/sce
+    - name: Kern River Valley Chamber of Commerce
+      "@type": NGO
+      url: https://www.kernrivervalley.com/
+      telephone: +1-866-578-4386
+      email: office@kernrivervalley.com
+      sameAs:
+        - https://www.facebook.com/visitkernriver/
+        - https://twitter.com/KRVCC
+    - name: kernville Chamber of Commerce
+      "@type": NGO
+      url: https://www.gotokernville.com/
+      email: info@gotokernville.com
+      telephone: +1-760-376-2629
+      sameAs:
+        - https://www.facebook.com/KernvilleChamber/
+        - https://instagram.com/explorekernville
+        - https://www.youtube.com/channel/UCnFWyv5t6x4nnMzqlaPOlfQ
