@@ -1,15 +1,30 @@
 ---
 title: Contacts
 permalink: /contacts/
-description: Contact form
+description: Contact info for various agencies and organizations associated with the French Fire
 layout: default
 pinned: true
 no-header: true
 ---
-<div class="status-box info">
-	This feature is currently a work in progress. Check again later.
-</div>
-<br />
+{% for section in site.data.contacts %}
+	<section id="{{ section.name | sluggify }}">
+		<h2 class="center sticky top z-2 contact-section-name">{{ section.name | escape }}</h2>
+		<div class="grid contact-entries">
+			{% for entry in section.entries %}
+				<div class="card shadow contact-entry center" itemtype="https://schema.org/{{ entry['@type'] | default: 'Organization' }}" itemscope="">
+					<h3 class="contact-name" itemprop="name">{{ entry.name | escape }}</h3>
+					<div class="entry-contact-info">
+						{% if entry.url %}{% include common/url.html url=entry.url %}{% endif %}
+						{% if entry.telephone %}{% include common/telephone.html telephone=entry.telephone %}{% endif %}
+						{% if entry.email %}{% include common/email.html email=entry.email %}{% endif %}
+					</div>
+					{% if entry.address %}{% include common/address.html address=entry.address %}{% endif %}
+					{% if entry.sameAs %}<br />{% include common/same-as-links.html sameAs=entry.sameAs %}{% endif %}
+				</div>
+			{% endfor %}
+		</div>
+	</section>
+{% endfor %}
 <section class="card shadow">
 	<p>To add a contact info for an agency relevant to the French Fire, please fill out the <a href="https://contact.kernvalley.us/?subject=French%20Fire%add%20agency" rel="noppener noreferrer external">
 		{% include common/icon.html icon="link-external" height="16" width="16" fill="currentColor" %}
