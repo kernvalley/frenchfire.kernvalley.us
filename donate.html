@@ -1,0 +1,32 @@
+---
+layout: default
+title: Donate
+permalink: /donate/
+pin: true
+no-header: true
+# imgur: https://i.imgur.com/kBNj4cM.png
+# image: https://i.imgur.com/kBNj4cMm.png
+description: A collection of places to donate for the French Fire
+links:
+  - name: Margie Bowhan - GoFundMe
+    href: https://www.gofundme.com/f/lets-help-margie-bowhan
+  - name: Elizabeth Carde - GoFundMe
+    href: https://www.gofundme.com/f/relief-fund-for-elizabeth-carde-french-fire
+  - name: Andrew Alverez - GoFundMe
+    href: https://www.gofundme.com/f/5c94g-help-andrew-get-back-on-his-feet
+---
+<div class="status-box info">This page is a work in progress.</div>
+<section class="grid grid-gallery donations">
+	{% for link in page.links %}
+		<a href="{{ link.href }}" rel="noopener noreferrer external" class="card shadow inline-block donation-link">
+			{% include common/icon.html icon="link-external" height="16" width="16" fill="currentColor" %}
+			<span class="donation-name">{{ link.name }}</span>
+		</a>
+	{% endfor %}
+</section>
+<br />
+<section class="card shadow">
+	<p>To add a charity or donation request, please fill out the <a href="https://contact.kernvalley.us/?subject=French%20Fire%20charity%20request" rel="noppener noreferrer external">
+		{% include common/icon.html icon="link-external" height="16" width="16" fill="currentColor" %}
+		<span>Contact Form</span></a>
+</section>
