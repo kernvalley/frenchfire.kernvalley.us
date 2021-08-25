@@ -8,8 +8,8 @@ orientation: any
 description: "A GitHub repository for easily creating fast, modern, PWA compatible websites"
 icons-file: /img/icons.svg
 theme:
-  color: '#007bff'
-  background: '#008000'
+  color: '#008000'
+  background: '#242424'
 icons:
   - src: /img/favicon.svg
     type: image/svg+xml
