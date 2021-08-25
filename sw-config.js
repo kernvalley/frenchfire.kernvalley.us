@@ -57,7 +57,6 @@ const config = {
 		'https://cdn.kernvalley.us/fonts/roboto.woff2',
 	].map(path => new URL(path, location.origin).href),
 	allowed: [
-		new URL('/news/', location.origin).href,
 		// 'https://maps.wikimedia.org/osm-intl/',
 		'/https://i.imgur.com/',
 		'/https://secure.gravatar.com/avatar/',
@@ -65,6 +64,7 @@ const config = {
 		/\.(jpg|png|webp|svg|gif)$/,
 	],
 	allowedFresh: [
+		new URL('/news/', location.origin).href,
 		'https://www.google-analytics.com/analytics.js',
 		'https://www.googletagmanager.com/gtag/js',
 		'https://baconipsum.com/api/',
