@@ -9,7 +9,7 @@ description: "A GitHub repository for easily creating fast, modern, PWA compatib
 icons-file: /img/icons.svg
 theme:
   color: '#007bff'
-  background: '#242424'
+  background: '#008000'
 icons:
   - src: /img/favicon.svg
     type: image/svg+xml
