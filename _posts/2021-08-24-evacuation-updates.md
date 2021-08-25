@@ -1,8 +1,8 @@
 ---
 date: 2021-08-22
 title: 8/24 Evacuation Updates
-imgur: https://i.imgur.com/SVBEbfa.png
-image: https://i.imgur.com/SVBEbfam.png
+imgur: https://i.imgur.com/xVX9zlS.jpg
+image: https://i.imgur.com/xVX9zlSm.jpg
 description: Final evacuation order for Wofford Heights. Evacuation warning added for Kernville.
 tags:
   - kern valley
