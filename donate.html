@@ -30,3 +30,12 @@ links:
 		{% include common/icon.html icon="link-external" height="16" width="16" fill="currentColor" %}
 		<span>Contact Form</span></a>
 </section>
+<section>
+	{% if include.share != false %}{% include common/share-buttons.html
+		facebook=true
+		twitter=true
+		reddit=true
+		linkedin=true
+		text=include.description
+	%}{% endif %}
+</section>
