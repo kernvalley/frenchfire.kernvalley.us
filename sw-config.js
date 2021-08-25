@@ -26,6 +26,7 @@ const config = {
 		'https://cdn.kernvalley.us/components/github/user.css',
 		'https://cdn.kernvalley.us/components/install/prompt.css',
 		// 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css',
+		'https://cdn.kernvalley.us/components/weather/current.css',
 
 		/* Data and JSON */
 		'/manifest.json',
@@ -37,6 +38,7 @@ const config = {
 		// 'https://cdn.kernvalley.us/components/slide-show/slide-show.html',
 		'https://cdn.kernvalley.us/components/github/user.html',
 		'https://cdn.kernvalley.us/components/install/prompt.html',
+		'https://cdn.kernvalley.us/components/weather/current.html',
 
 		/* Images & Icons */
 		'/img/icons.svg',
