@@ -9,7 +9,6 @@ const config = {
 	fresh: [
 		/* Root document, pages, and posts */
 		'{{ site.pages | where: "pinned", true | map: "url" | join: "', '" }}',
-		'{{ site.posts | where: "pinned", true | map: "url" | join: "', '" }}',
 		'/manifest.json',
 		'https://apps.kernvalley.us/apps.json',
 	].map(path => new URL(path, location.origin).href),
@@ -21,19 +20,19 @@ const config = {
 		/* CSS */
 		'/css/index.min.css',
 		'https://cdn.kernvalley.us/components/toast-message.css',
-		'https://cdn.kernvalley.us/components/leaflet/map.css',
+		// 'https://cdn.kernvalley.us/components/leaflet/map.css',
 		'https://cdn.kernvalley.us/components/share-to-button/share-to-button.css',
 		'https://cdn.kernvalley.us/components/slide-show/slide-show.css',
 		'https://cdn.kernvalley.us/components/github/user.css',
 		'https://cdn.kernvalley.us/components/install/prompt.css',
-		'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css',
+		// 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css',
 
 		/* Data and JSON */
 		'/manifest.json',
 
 		/* `customElements`templates */
 		'https://cdn.kernvalley.us/components/toast-message.html',
-		'https://cdn.kernvalley.us/components/leaflet/map.html',
+		// 'https://cdn.kernvalley.us/components/leaflet/map.html',
 		'https://cdn.kernvalley.us/components/share-to-button/share-to-button.html',
 		'https://cdn.kernvalley.us/components/slide-show/slide-show.html',
 		'https://cdn.kernvalley.us/components/github/user.html',
@@ -52,13 +51,14 @@ const config = {
 		'https://cdn.kernvalley.us/img/logos/itunes-badge.svg',
 		'https://cdn.kernvalley.us/img/logos/windows-badge.svg',
 		'https://cdn.kernvalley.us/img/logos/instagram.svg',
-		'https://cdn.kernvalley.us/img/markers.svg',
+		// 'https://cdn.kernvalley.us/img/markers.svg',
 
 		/* Fonts */
 		'https://cdn.kernvalley.us/fonts/roboto.woff2',
 	].map(path => new URL(path, location.origin).href),
 	allowed: [
-		'https://maps.wikimedia.org/osm-intl/',
+		new URL('/news/', location.origin).href,
+		// 'https://maps.wikimedia.org/osm-intl/',
 		'/https://i.imgur.com/',
 		'/https://secure.gravatar.com/avatar/',
 		/https:\/\/*\.githubusercontent\.com\/u\/*/,

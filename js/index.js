@@ -2,8 +2,10 @@ import 'https://cdn.kernvalley.us/js/std-js/deprefixer.js';
 import 'https://cdn.kernvalley.us/js/std-js/shims.js';
 import 'https://cdn.kernvalley.us/js/std-js/theme-cookie.js';
 import 'https://cdn.kernvalley.us/components/share-button.js';
+import 'https://cdn.kernvalley.us/components/bacon-ipsum.js';
+import 'https://cdn.kernvalley.us/components/weather/current.js';
 import 'https://cdn.kernvalley.us/components/share-to-button/share-to-button.js';
-import 'https://cdn.kernvalley.us/components/slide-show/slide-show.js';
+// import 'https://cdn.kernvalley.us/components/slide-show/slide-show.js';
 import 'https://cdn.kernvalley.us/components/github/user.js';
 import 'https://cdn.kernvalley.us/components/current-year.js';
 import 'https://cdn.kernvalley.us/components/bacon-ipsum.js';
@@ -16,8 +18,10 @@ import { getCustomElement } from 'https://cdn.kernvalley.us/js/std-js/custom-ele
 import { debounce } from 'https://cdn.kernvalley.us/js/std-js/events.js';
 import { init } from 'https://cdn.kernvalley.us/js/std-js/data-handlers.js';
 import { importGa, externalHandler, telHandler, mailtoHandler } from 'https://cdn.kernvalley.us/js/std-js/google-analytics.js';
-import { submitHandler } from './contact-demo.js';
+// import { submitHandler } from './contact-demo.js';
 import { GA } from './consts.js';
+import { getAllPets } from './functions.js';
+window.getAllPets = getAllPets;
 
 css([document.documentElement], { '--viewport-height': `${window.innerHeight}px`});
 
@@ -62,10 +66,6 @@ Promise.all([
 	ready(),
 ]).then(([HTMLInstallPromptElement]) => {
 	init();
-
-	if (location.pathname.startsWith('/contact')) {
-		on('#contact-form', ['cubmit'], submitHandler);
-	}
 
 	on('#install-btn', ['click'], () => new HTMLInstallPromptElement().show())
 		.forEach(el => el.hidden = false);

@@ -2,6 +2,18 @@ nav:
   - label: Home
     icon: home
     href: /
+  # - label: Map
+  #   icon: link
+  #   href: /fire/
+  - label: News
+    icon: news
+    href: /news/
+  - label: Pets
+    icon: pets
+    href: /pets/
+  - label: Contacts
+    icon: address-book
+    href: /contacts/
 footer:
   - label: KernValley.US
     href: https://kernvalley.us
