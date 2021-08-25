@@ -3,8 +3,8 @@ title: Riverkern receives evacuation warning for French Fire
 date: 2021-08-25 14:45
 pinned: true
 index: true
-imgur: https://i.imgur.com/3yPNHF8.jpg
-image: https://i.imgur.com/3yPNHF8m.jpg
+#imgur: https://i.imgur.com/3yPNHF8.jpg
+#image: https://i.imgur.com/3yPNHF8m.jpg
 description: Riverkern added to list of evacuation warnings
 tags:
   - french fire
