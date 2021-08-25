@@ -1,10 +1,40 @@
 <aside id="sidebar" class="card shadow">
+	<div class="card">
+		<h3>Fire Stats</h3>
+		<ul>
+			<li>
+				<b>Acres Burned:</b>
+				<span>{{ site.data.stats.acres }}</span>
+			</li>
+			<li>
+				<b>Containment:</b>
+				<span>{{ site.data.stats.contained }}%</span>
+			</li>
+			<li>
+				<b>Personell:</b>
+				<span>{{ site.data.stats.personell }}</span>
+			</li>
+			<li>
+				<b>Estimated Containment:</b>
+				<time datetime="{{ site.data.stats.estimated_containment | date: date_to_xmlschema }}">{{ site.data.stats.estimated_containment | date: "%b. %e" }}</time>
+			</li>
+		</ul>
+		<div>
+			<b>Last Updated</b>
+			<time datetime="{{ site.data.stats.updated | date: date_to_xmlschema }}">{{ site.data.stats.updated | date: "%a, %b. %e at %r" }}</time>
+		</div>
+	</div>
+	{% if site.data.weather %}
+		<weather-current class="card block" appid="{{ site.data.weather.appid }}" postalcode="{{ site.data.weather.postalCode }}" theme="{{ site.data.weather.theme }}"></weather-current>
+	{% endif %}
 	{% if include.pinned-posts %}{% include articles/pinned-posts.html count=layout.pinned-posts %}{% endif %}
 	{% if page.ads %}{% for ad in page.ads %}
 		{% include common/ad.html ad=ad content="sidebar" %}
 	{% endfor %}{% endif %}
+	{% comment %}
 	{% for ad in site.data.ads.sidebar %}
 		{% include common/ad.html ad=ad content="sidebar" %}
 	{% endfor %}
+	{% endcomment %}
 	{% if include.recent-posts %}{% include articles/recent-posts.html count=layout.recent-posts %}{% endif %}
 </aside>

@@ -1,9 +1,9 @@
 ---
 author: Chris Zuber
-title: Jekyll Template Demo
-url: 'https://infallible-galileo-ac41ee.netlify.app'
+title: French Fire
+url: https://frenchfire.kernvalley.us
 markdown: kramdown
-version: 1.3.0
+version: 1.0.0
 timezone: America/Los_Angeles
 lang: en
 dir: ltr
@@ -17,10 +17,11 @@ manifest: /webapp.webmanifest
 tiles-config: /browserconfig.xml
 service_worker: /service-worker.js
 og-type: website
+disqus: https-frenchfire-kernvalley-us
 keep-kern-clean: true
 description: "A template repository for Jekyll sites, including skeleton JS, CSS, SVGs, fonts, etc."
 mobile-web-app-capable: true
-canonical: https://infallible-galileo-ac41ee.netlify.app/''
+canonical: https://frenchfire.kernvalley.us
 keywords:
   - jekyll
   - static
@@ -35,14 +36,14 @@ keywords:
   - javascript
   - es6
 repository:
-  username: shgysk8zer0
-  project: jekyll-template
-  title: Jekyll Template
-twitter: "shgysk8zer0"
-feed:
-  url: /feed.rss
-  type: application/rss+xml
-icons: /img/icons.svg
+  username: kernvalley
+  project: frenchfire.kernvalley.us
+  title: French Fire
+twitter: kern_valley
+# feed:
+#   url: /feed.rss
+#   type: application/rss+xml
+# icons: /img/icons.svg
 # discus-identifier:
 # google-analytics:
 # ad-sense:
@@ -67,7 +68,7 @@ defaults:
         url: 'https://kernvalley.us'
         logo:
           url: 'https://kernvalley.us/img/icon-256.png'
-      permalink: /posts/:categories/:year/:month/:day/:title/
+      permalink: /news/:categories/:year/:month/:day/:title/
       comments: true
       ads: false
       index: true

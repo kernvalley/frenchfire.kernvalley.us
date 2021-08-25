@@ -1,0 +1,11 @@
+---
+title: Fire Map
+layout: default
+pinned: true
+tiles: Open_Street_Map
+latitude: 35.680167
+longitude: -118.552093
+zoom: 12
+---
+<iframe id="fire-map" class="card full-width" width="600" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://mappingsupport.com/p2/gissurfer.php?center={{ page.latitude }},{{ page.longitude }}&zoom={{ page.zoom }}&basemap={{ page.titles }}&overlay=VIIRS_24_hours,MODIS_24_hours,State_boundary,Wildland_fire_name,County,ESRI_roads_and_labels&fire=CA,French&data=https://mappingsupport.com/p2/special_maps/disaster/USA_wildland_fire.txt" sandbox="allow-scripts allow-same-origin" loading="lazy" referrerpolicy="origin"></iframe>
+<button type="button" class="btn btn-primary" data-full-screen="#fire-map">Fullscreen</button>
