@@ -12,8 +12,10 @@
 	}
 }
 
-#sidebar .sidebar-section {
+#sidebar > * {
 	margin-bottom: 0.6em;
+	width: 30vw;
+	max-width: 100%;
 }
 
 details.accordion[open] > :not(summary) {

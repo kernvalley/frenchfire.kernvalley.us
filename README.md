@@ -1,5 +1,5 @@
 # [French Fire](https://frenchfire.kernvalley.us/)
-A template repository for Jekyll sites, including skeleton JS, CSS, SVGs, fonts, etc.
+Maps, news, info, and support for the French Fire in the Kern Valley
 
 <!-- [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=kernvalley/frenchfire.kernvalley.us)](https://dependabot.com) -->
 [![Node CI](https://github.com/kernvalley/frenchfire.kernvalley.us/workflows/Node%20CI/badge.svg)](https://github.com/kernvalley/frenchfire.kernvalley.us/actions)

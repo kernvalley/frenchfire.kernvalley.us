@@ -5,7 +5,7 @@ lang: en
 dir: ltr
 display: standalone
 orientation: any
-description: "A GitHub repository for easily creating fast, modern, PWA compatible websites"
+description: Maps, news, info, and support for the French Fire in the Kern Valley
 icons-file: /img/icons.svg
 theme:
   color: '#008000'
@@ -34,18 +34,18 @@ icons:
     type: image/png
     sizes: 16x16
 screenshots:
-  - src: 'https://i.imgur.com/IjdVouxh.png'
-    sizes: 1024x502
-    type: image/png
-  - src: 'https://i.imgur.com/IjdVouxl.png'
-    sizes: 640x314
-    type: image/png
-  - src: 'https://i.imgur.com/IjdVouxm.png'
-    sizes: 320x157
-    type: image/png
-  - src: 'https://i.imgur.com/IjdVouxt.png'
+  - src: https://i.imgur.com/kBNj4cMh.png
+    sizes: 1024x497
+    type: image/jpeg
+  - src: https://i.imgur.com/kBNj4cMl.png
+    sizes: 640x310
+    type: image/jpeg
+  - src: https://i.imgur.com/kBNj4cMm.png
+    sizes: 320x155
+    type: image/jpeg
+  - src: https://i.imgur.com/kBNj4cMt.png
     sizes: 160x78
-    type: image/png
+    type: image/jpeg
 # https://web.dev/app-shortcuts/
 shortcuts:
   - name: Pets
@@ -153,17 +153,12 @@ related_applications:
   # - platform: windows
   #   url: "#"
 features:
-  - PWA-ready GitHub template for Jekyll sites
-  - Dark mode support, controlled by (prefers-color-scheme) media query
-  - Includes templates created with SEO via structured data in mind
-  - Initial setup scores 99% on mobile on Page Speed Insights
-  - Responsive design supporting any screen size thanks to CSS grid and use of viewport units
+  - News, updates, and maps for the French Fire
+  - Upcoming lost & found pet searching and reporting
+  - A compiled list of various fire agencies, support and aid groups, etc.
+  - Offline browsing support (certain pages and functionality)
+  - Dark mode support
   - Integtation with system sharing via the Share API (with fallback)
-  - Preset Pull Request and Issue templates, as well as Code of Conduct & Contributing Guidelines
-  - Built-in testing via GitHub Actions, eslint, and stylelint
-  - Always up-to-date thanks to preset Dependabot-v2 config
-  - Setup for quick deployment to Netlify
-  - Version files for Ruby and NodeJS (.rvmrc, .ruby-version, and .nvmrc)
 # https://github.com/w3c/manifest/wiki/Categories
 categories:
   - news
