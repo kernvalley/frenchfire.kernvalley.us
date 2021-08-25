@@ -7,7 +7,7 @@
 body.grid {
 	grid-template-areas: "nav nav nav" ". main sidebar" "footer footer footer";
 	grid-template-columns: 1fr minmax(400px, 70vw) 350px;
-	grid-template-rows: var(--nav-height, 4rem) auto 100vh;
+	grid-template-rows: var(--nav-height, 4rem) auto calc(100vh - var(--nav-height, 4rem));
 }
 
 .grid-gallery {
@@ -18,7 +18,7 @@ body.grid {
 }
 
 .site-links {
-	grid-template-columns: repeat(auto-fit, minmax(180px, 250px));
+	grid-template-columns: repeat(auto-fit, minmax(180px, 280px));
 	gap: 15px;
 	justify-content: space-evenly;
 }
@@ -94,44 +94,4 @@ button.btn[is="share-button"] {
 	body.grid {
 		grid-column-gap: 1.5rem;
 	}
-}
-
-[data-flex-grow="0"] {
-	flex-grow: 0;
-}
-
-[data-flex-grow="1"] {
-	flex-grow: 1;
-}
-
-[data-flex-grow="2"] {
-	flex-grow: 2;
-}
-
-[data-flex-grow="3"] {
-	flex-grow: 3;
-}
-
-[data-flex-grow="4"] {
-	flex-grow: 4;
-}
-
-[data-flex-shrink="0"] {
-	flex-shrink: 0;
-}
-
-[data-flex-shrink="1"] {
-	flex-shrink: 1;
-}
-
-[data-flex-shrink="2"] {
-	flex-shrink: 2;
-}
-
-[data-flex-shrink="3"] {
-	flex-shrink: 3;
-}
-
-[data-flex-shrink="4"] {
-	flex-shrink: 4;
 }

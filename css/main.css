@@ -1,7 +1,12 @@
 main {
+	margin-top: 15px;
 	grid-area: main;
 	--link-color: #049ccf;
 	--link-decoration: underline;
+}
+
+.grid-gallery a img {
+	width: 100%;
 }
 
 article p:first-letter {

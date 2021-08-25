@@ -23,18 +23,13 @@ description: "A template repository for Jekyll sites, including skeleton JS, CSS
 mobile-web-app-capable: true
 canonical: https://frenchfire.kernvalley.us
 keywords:
-  - jekyll
-  - static
-  - template
-  - github
-  - CSS3
-  - HTML5
-  - responsive design
-  - progressive web app
-  - pwa
-  - ecmascript
-  - javascript
-  - es6
+  - french fire
+  - kern river valley
+  - kern valley
+  - fire
+  - wofford heights
+  - alta sierra
+  - kernville
 repository:
   username: kernvalley
   project: frenchfire.kernvalley.us
