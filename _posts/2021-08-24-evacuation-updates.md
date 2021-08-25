@@ -13,6 +13,8 @@ tags:
   - kernville
   - evacuation
 ---
+{% include common/imgur.html imgur=page.imgur %}
+
 ### Wofford Heights
 Final warning for mandatory evacuation.
 
