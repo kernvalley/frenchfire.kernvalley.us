@@ -10,6 +10,12 @@ body.grid {
 	grid-template-rows: var(--nav-height, 4rem) auto calc(100vh - var(--nav-height, 4rem));
 }
 
+.grid.contact-entries {
+	grid-template-columns: repeat(auto-fit,350px);
+	gap: 15px;
+	justify-content: space-around;
+}
+
 .grid-gallery {
 	grid-template-columns: repeat(auto-fit, minmax(220px, 400px));
 	grid-template-rows: masonry;

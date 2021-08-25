@@ -1,8 +1,12 @@
-main {
+#main {
 	margin-top: 15px;
 	grid-area: main;
 	--link-color: #049ccf;
 	--link-decoration: underline;
+}
+
+#main > section:not(:last-of-type) {
+	margin-bottom: 15px;
 }
 
 .grid-gallery a img {
@@ -15,4 +19,8 @@ article p:first-letter {
 
 .meta-author-links.flex {
 	gap: 12px;
+}
+
+.contact-section-name {
+	top: var(--nav-height, 4rem);
 }

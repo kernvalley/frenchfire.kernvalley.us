@@ -1,4 +1,126 @@
-- name: Fire Agencies
+- name: Fire & Land Agencies
   entries:
-  - name: Kern County Fire Department
-  - name: CalFire
+  - name: Kern County Fire
+    "@type": GovernmentOrganization
+    url: https://kerncountyfire.org/
+    telephone: +1-661-391-7000
+    sameAs:
+      - https://www.facebook.com/kerncountyfire
+      - https://twitter.com/kerncountyfire
+      - https://instagram.com/kern_county_fire/
+      - https://www.youtube.com/kerncountyfire
+  - name: Cal Fire
+    "@type": GovernmentOrganization
+    url: https://www.fire.ca.gov/
+    sameAs:
+      - https://twitter.com/CAL_FIRE
+  - name: Sequoia National Forest Service
+    "@type": GovernmentOrganization
+    url: https://fs.usda.gov/sequoia
+    telephone: +1-559-784-1500
+    sameAs:
+      - https://www.facebook.com/SequoiaNF/
+      - https://twitter.com/sequoiaforset
+      - https://www.youtube.com/usdaforestservice
+  - name: BLM
+    "@type": GovernmentOrganization
+    url: https://www.blm.gov/
+    telephone: +1-202-208-3801
+    sameAs:
+      - https://www.facebook.com/BLMNational
+      - https://twitter.com/BLMNational
+      - https://instagram.com/mypubliclands
+      - https://www.youtube.com/BLMNational
+- name: Relief & Aid
+  entries:
+    - name: Kern County Red Cross
+      "@type": NGO
+      url: https://www.redcross.org/local/california/central-california.html
+      telephone: +1-661-324-6427
+      sameAs:
+        - https://www.facebook.com/redcross
+        - https://twitter.com/RedCrossCCR
+        - https://instagram.com/americanredcross/
+    - name: Kern County Animal Services
+      "@type": NGO
+      url: https://www.kerncountyanimalservices.org/
+      email: https://kerncounty.seamlessdocs.com/f/ContactAnimalServicesDept
+      telephone: +1-661-868-7100
+      sameAs:
+        - https://www.facebook.com/KernCountyAnimalServices/
+        - https://twitter.com/KCAnimalService
+        - https://instagram.com/kern_county_animal_services/
+        - https://www.youtube.com/channel/UCfbgFLJhxcQXamX8YeG6RrQ
+    - name: Kern County Aging & Adult Services
+      url: https://www.kerncounty.com/government/aging-adult-services
+      sameAs:
+        - https://www.facebook.com/agingandadultservices/
+        - https://instagram.com/kernagingandadultservices/
+    - name: FEMA
+      url: https://www.fema.gov/
+      sameAs:
+        - https://www.facebook.com/FEMA/
+        - https://twitter.com/femaregion9
+        - https://instagram.com/fema
+        - https://www.youtube.com/fema
+        - https://www.linkedin.com/company/fema/
+- name: News & Media
+  entries:
+    - name: Kern Valley Sun
+      "@type": NewsMediaOrganization
+      url: https://kernvalleysun.com/
+      telephone: +1-760-379-3667
+      email: editor@kvsun.com
+      sameAs:
+        - https://www.facebook.com/KernValleySun
+    - name: KGET 17 News
+      "@type": NewsMediaOrganization
+      url: https://www.kget.com/
+      telephone: +1-661-283-1717
+      email: 17news@kget.com
+      sameAs:
+        - https://www.facebook.com/KGET17News/
+        - https://twitter.com/kgetnews
+        - https://instagram.com/kgetnews/
+        - https://www.youtube.com/kgetnews
+    - name: "23ABC News - KERO"
+      "@type": NewsMediaOrganization
+      url: https://www.turnto23.com/
+      sameAs:
+        - https://www.facebook.com/23ABCBakersfield
+        - https://instagram.com/23ABCNews/
+        - https://twitter.com/23ABCNews
+    - name: The Bakersfield Californian
+      "@type": NewsMediaOrganization
+      url: https://www.bakersfield.com/
+      telephone: +1-661-395-7500
+      sameAs:
+        - https://www.facebook.com/BakersfieldCalifornian
+        - https://twitter.com/Bakersfieldcali
+        - https://www.linkedin.com/company/the-bakersfield-californian
+        - https://instagram.com/bakersfieldcali/
+- name: Other
+  entries:
+    - name: Kern County Sheriff's Office
+      "@type": GovernmentOrganization
+      url: https://kernsheriff.org/
+      email: sheriff@kernsheriff.org
+      telephone: +1-661-861-3110
+      sameAs:
+        - https://www.facebook.com/kernsheriff/
+        - https://twitter.com/KernCoSheriff
+        - https://instagram.com/kernsheriff/
+        - https://www.youtube.com/user/KernSheriffsOffice
+    - name: KVHD
+      url: https://www.kvhd.org/
+      telephone: +1-760-379-2681
+      email: question@kvhd.org
+      sameAs:
+        - https://www.facebook.com/Kern-Valley-Health-Care-District-272972479424343/
+        - https://twitter.com/_kvhd
+        - https://www.youtube.com/channel/UCixrV4-Rgy-gmr_frlb3_Bg
+    - name: Kern Transit
+      url: https://kerntransit.org/
+      telephone: +1-800-323-2396
+      sameAs:
+        - https://twitter.com/KernTransit
