@@ -2,7 +2,7 @@
   "name": "french-fire",
   "version": "1.0.0",
   "private": true,
-  "description": "A template repository for Jekyll sites, including skeleton JS, CSS, SVGs, fonts, etc.",
+  "description": "Maps, news, info, and support for the French Fire in the Kern Valley",
   "config": {
     "icons": "./_data/icons.csv",
     "serve": {
@@ -22,13 +22,15 @@
     "url": "git+https://github.com/kernvalley/frenchfire.kernvalley.us.git"
   },
   "keywords": [
-    "jekyll",
-    "template",
-    "ecmascript",
-    "javascript",
-    "css",
-    "svg",
-    "icons"
+    "french fire",
+    "kern river valley",
+    "kern valley",
+    "wofford heights",
+    "kernville",
+    "alta sierra",
+    "fire",
+    "news",
+    "maps"
   ],
   "author": "Chris Zuber <adming@kernvalley.us>",
   "license": "MIT",

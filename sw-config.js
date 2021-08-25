@@ -34,13 +34,13 @@ const config = {
 		'https://cdn.kernvalley.us/components/toast-message.html',
 		// 'https://cdn.kernvalley.us/components/leaflet/map.html',
 		'https://cdn.kernvalley.us/components/share-to-button/share-to-button.html',
-		'https://cdn.kernvalley.us/components/slide-show/slide-show.html',
+		// 'https://cdn.kernvalley.us/components/slide-show/slide-show.html',
 		'https://cdn.kernvalley.us/components/github/user.html',
 		'https://cdn.kernvalley.us/components/install/prompt.html',
 
 		/* Images & Icons */
 		'/img/icons.svg',
-		'/img/neon.svg',
+		// '/img/neon.svg',
 		'/img/apple-touch-icon.png',
 		'/img/icon-512.png',
 		'/img/icon-192.png',
@@ -48,9 +48,9 @@ const config = {
 		'/img/favicon.svg',
 		'https://cdn.kernvalley.us/img/keep-kern-clean.svg',
 		'https://cdn.kernvalley.us/img/logos/play-badge.svg',
-		'https://cdn.kernvalley.us/img/logos/itunes-badge.svg',
-		'https://cdn.kernvalley.us/img/logos/windows-badge.svg',
-		'https://cdn.kernvalley.us/img/logos/instagram.svg',
+		// 'https://cdn.kernvalley.us/img/logos/itunes-badge.svg',
+		// 'https://cdn.kernvalley.us/img/logos/windows-badge.svg',
+		// 'https://cdn.kernvalley.us/img/logos/instagram.svg',
 		// 'https://cdn.kernvalley.us/img/markers.svg',
 
 		/* Fonts */
@@ -67,7 +67,7 @@ const config = {
 		new URL('/news/', location.origin).href,
 		'https://www.google-analytics.com/analytics.js',
 		'https://www.googletagmanager.com/gtag/js',
-		'https://baconipsum.com/api/',
+		// 'https://baconipsum.com/api/',
 		'https://api.github.com/users/',
 		'https://api.openweathermap.org/data/',
 		/\.(html|css|js|json)$/,

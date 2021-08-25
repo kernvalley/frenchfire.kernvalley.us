@@ -3,13 +3,16 @@ layout: default
 title: News
 permalink: /news/
 pinned: true
-description: A GitHub repository for easily creating fast, modern, PWA compatible websites
+no-header: true
+description: The latest news and updates on the French Fire
 tags:
-- jekyll
-- pwa
-- github template repo
-prerender:
-- href: /posts/2019/10/29/test/
+  - french fire
+  - news
+  - alta sierra
+  - wofford heights
+  - kern valley
+  - kern river valley
+  - fire
 ---
 <section class="pagination">
 	<div class="grid grid-gallery">
@@ -22,7 +25,7 @@ prerender:
 	{% if paginator.previous_page or paginator.next_page %}
 		<footer class="paginate-nav">
 			{% if paginator.previous_page %}
-				<a href="{{ paginator.previous_page_path  }}" rel="prev" role="button" title="Previous page">
+				<a href="{{ paginator.previous_page_path }}" rel="prev" role="button" title="Previous page">
 					{% include common/icon.html icon='prev' %}
 				</a>
 			{% endif %}

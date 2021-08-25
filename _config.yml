@@ -55,10 +55,13 @@ defaults:
       path: _posts
     values:
       layout: post
+      no-header: true
+      imgur: https://i.imgur.com/SVBEbfa.png
+      image: https://i.imgur.com/SVBEbfam.png
       author:
         givenName: Chris
         familyName: Zuber
-        url: 'https://shgysk8zer0.github.io'
+        url: https://kernvalley.us
         gravatar: '43578597e449298f5488c2407c8a8ae5'
         github: shgysk8zer0
         twitter: shgysk8zer0
