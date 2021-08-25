@@ -27,6 +27,7 @@ body.grid {
 	body.grid {
 		grid-template-areas: "nav" "main" "sidebar" "footer";
 		grid-template-columns: 100%;
+		grid-template-rows: var(--nav-height, 4rem) auto auto calc(100vh - var(--nav-height, 4rem));
 	}
 
 	.site-links, .grid-gallery {

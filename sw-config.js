@@ -22,7 +22,7 @@ const config = {
 		'https://cdn.kernvalley.us/components/toast-message.css',
 		// 'https://cdn.kernvalley.us/components/leaflet/map.css',
 		'https://cdn.kernvalley.us/components/share-to-button/share-to-button.css',
-		'https://cdn.kernvalley.us/components/slide-show/slide-show.css',
+		// 'https://cdn.kernvalley.us/components/slide-show/slide-show.css',
 		'https://cdn.kernvalley.us/components/github/user.css',
 		'https://cdn.kernvalley.us/components/install/prompt.css',
 		// 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css',
