@@ -44,7 +44,6 @@
     - name: Kern County Animal Services
       "@type": NGO
       url: https://www.kerncountyanimalservices.org/
-      email: https://kerncounty.seamlessdocs.com/f/ContactAnimalServicesDept
       telephone: +1-661-868-7100
       sameAs:
         - https://www.facebook.com/KernCountyAnimalServices/
