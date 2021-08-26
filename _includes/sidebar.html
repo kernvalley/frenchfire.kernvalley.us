@@ -1,29 +1,35 @@
 <aside id="sidebar">
-	<div class="card">
-		<h3>Fire Stats</h3>
-		<ul>
-			<li>
-				<b>Acres Burned:</b>
-				<span>{{ site.data.stats.acres }}</span>
-			</li>
-			<li>
-				<b>Containment:</b>
-				<span>{{ site.data.stats.contained }}%</span>
-			</li>
-			<li>
-				<b>Personell:</b>
-				<span>{{ site.data.stats.personell }}</span>
-			</li>
-			<li>
-				<b>Estimated Containment:</b>
-				<time datetime="{{ site.data.stats.estimated_containment | date: date_to_xmlschema }}">{{ site.data.stats.estimated_containment | date: "%b. %e" }}</time>
-			</li>
-		</ul>
-		<div>
-			<b>Last Updated</b>
-			<time datetime="{{ site.data.stats.updated | date: date_to_xmlschema }}">{{ site.data.stats.updated | date: "%a, %b. %e at %r" }}</time>
+	{% assign latest = site.posts | find: "type", "update" %}
+	{% if latest %}
+		<div class="card">
+			<h3><a href="{{ latest.url }}" class="block link-color underline">
+					{% include common/icon.html icon="link" height="18" width="18" fill="currentColor" %}
+					<span>Fire Stats</span>
+				</a></h3>
+			<ul>
+				<li>
+					<b>Acres Burned:</b>
+					<span>{{ latest.acres }}</span>
+				</li>
+				<li>
+					<b>Containment:</b>
+					<span>{{ latest.containment }}%</span>
+				</li>
+				<li>
+					<b>Personel:</b>
+					<span>{{ latest.personel }}</span>
+				</li>
+				<li>
+					<b>Estimated Containment:</b>
+					<time datetime="{{ latest.estimated_containment | date: date_to_xmlschema }}">{{ latest.estimated_containment | date: "%b. %e" }}</time>
+				</li>
+			</ul>
+			<div>
+				<b>Last Updated</b>
+				<time datetime="{{ latest.date | date: date_to_xmlschema }}">{{ latest.date | date: "%a, %b. %e at %r" }}</time>
+			</div>
 		</div>
-	</div>
+	{% endif %}
 	{% if site.data.weather %}
 		<weather-current class="card block" appid="{{ site.data.weather.appid }}" postalcode="{{ site.data.weather.postalCode }}" theme="{{ site.data.weather.theme }}"></weather-current>
 	{% endif %}
