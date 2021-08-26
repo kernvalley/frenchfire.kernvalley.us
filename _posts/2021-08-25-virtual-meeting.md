@@ -1,8 +1,13 @@
 ---
 title: 8/25 Virtual Meeting Highlights
 date: 2021-08-25 20:37
+type: update
 pinned: true
 index: true
+acres: 	21345
+containment: 19
+personell: 1067
+estimated_containment: 2021-09-07 00:00
 imgur: https://i.imgur.com/RIpzA0y.jpg
 image: https://i.imgur.com/RIpzA0ym.jpg
 description: French Fire appears to be human caused and of a suspicious nature, evidence shows. Invesitgation continues.
@@ -15,6 +20,7 @@ tags:
   - kernville
 ---
 {% include common/imgur.html url="https://i.imgur.com/HOiOtKw.jpg" %}
+
 ## Fire Summary
 - The French Fire appears to be human caused and of a suspicious nature
 - Highway 155 from Lake Isabella to Wofford Heights is closed
