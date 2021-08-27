@@ -6,7 +6,7 @@ draft: true
 index: true
 acres: 22916
 containment: 19
-personel: 1067
+personel: 1376
 estimated_containment: 2021-09-07 00:00
 imgur: https://i.imgur.com/H36xIJt.jpg
 image: https://i.imgur.com/H36xIJtm.jpg
