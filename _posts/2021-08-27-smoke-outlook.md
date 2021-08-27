@@ -2,7 +2,6 @@
 title: 8/27 Smoke Outlook
 date: 2021-08-27 14:00
 type: update
-draft: true
 index: true
 acres: 22916
 containment: 19
