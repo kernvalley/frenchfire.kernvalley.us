@@ -4,7 +4,7 @@ date: 2021-08-27 14:00
 type: update
 draft: true
 index: true
-acres: 	22916
+acres: 22916
 containment: 19
 personel: 1067
 estimated_containment: 2021-09-07 00:00
