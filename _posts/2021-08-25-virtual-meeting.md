@@ -28,7 +28,7 @@ tags:
   However, upon reviewing the video in a quieter environment, the correct statement was
   that it was <q>determined to be human caused.</q> The statement was made in the
   <a href="https://www.facebook.com/events/1027717621317377/" rel="noopener noreferrer external">Virtual Meeting</a>
-  at 26:15 by Theresa Benson.</p>
+  at 26:15 by Teresa Benson.</p>
 </div>
 
 ## Fire Summary
