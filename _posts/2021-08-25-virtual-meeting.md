@@ -1,6 +1,7 @@
 ---
 title: 8/25 Virtual Meeting Highlights
 date: 2021-08-25 20:37
+updated: 2021-08-27 19:30
 type: update
 pinned: true
 index: true
@@ -10,7 +11,7 @@ personell: 1067
 estimated_containment: 2021-09-07 00:00
 imgur: https://i.imgur.com/RIpzA0y.jpg
 image: https://i.imgur.com/RIpzA0ym.jpg
-description: French Fire appears to be human caused and of a suspicious nature, evidence shows. Invesitgation continues.
+description: French Fire determined to be human caused and of a suspicious nature, evidence shows. Investigation continues.
 tags:
   - french fire
   - kern valley
@@ -21,8 +22,17 @@ tags:
 ---
 {% include common/imgur.html url="https://i.imgur.com/HOiOtKw.jpg" %}
 
+<div class="status-box info post-correction">
+  <h3 class="center">Correction on <time datetime="2021-08-27T19:34-07:34">8/27 7:34 PM</time></h3>
+  <p>In the original post, it was stated that the French Fire <q>appeared to be caused by humans</q>/.
+  However, upon reviewing the video in a quieter environment, the correct statement was
+  that it was <q>determined to be human caused.</q> The statement was made in the
+  <a href="https://www.facebook.com/events/1027717621317377/" rel="noopener noreferrer external">Virtual Meeting</a>
+  at 26:15 by Teresa Benson.</p>
+</div>
+
 ## Fire Summary
-- The French Fire appears to be human caused and of a suspicious nature
+- The French Fire has been determined to be human caused and of a suspicious nature
 - Highway 155 from Lake Isabella to Wofford Heights is closed
 - Recreational sites between Kernville and Johnsondale will be closed beginning 8/26
 - [Evacuation warning issued for Riverkern](/news/2021/08/25/riverkern-evacuation-warning/) and Kernville
@@ -41,13 +51,13 @@ tags:
 Up Alta Sierra, crews engaged in structure protection. Wind shifts at around 2:00 PM
 cause spot fires and down-canyon winds drove the fire towards Wofford Heights.
 
-Crews are improving containment lines and feeling optomistic about about holding the fire.
+Crews are improving containment lines and feeling optimistic about about holding the fire.
 
 ReadyKern sends notifications when evacuation orders are lifted.
 
-Groundwork on the investigation is complete and evidence is being analized.
+Groundwork on the investigation is complete and evidence is being analyzed.
 The French Fire appears to be human caused and of a suspicious nature. Any tips for
-the invesitgation may be sent to <a href="mailto:2021.french@firenet.gov" class="btn btn-primary">{% include common/icon.html icon="mail" height="16" width="16" fill="currentColor" %}2021.french@firenet.gov</a>
+the investigation may be sent to <a href="mailto:2021.french@firenet.gov" class="btn btn-primary">{% include common/icon.html icon="mail" height="16" width="16" fill="currentColor" %}2021.french@firenet.gov</a>
 
 There is a planned closure of all recreational sites from Kernville to Johnsondale beginning
 on 8/26.
