@@ -3,8 +3,8 @@ title: 8/27 Evacuation Order Updates
 date: 2021-08-27 15:00
 index: true
 pinned: true
-imgur: https://i.imgur.com/H36xIJt.jpg
-image: https://i.imgur.com/H36xIJtm.jpg
+imgur: https://i.imgur.com/5QHeciU.jpg
+image: https://i.imgur.com/5QHeciUm.jpg
 description: Evacuation orders reduced to warnings for Black Gulch and Dutch Flat
 tags:
   - french fire
