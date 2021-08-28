@@ -2,8 +2,8 @@
 title: 8/28 Evacuation Updates
 date: 2021-08-28 15:00
 index: true
-imgur: https://i.imgur.com/Tkw2PjS.jpg
-image: https://i.imgur.com/Tkw2PjSm.jpg
+imgur: https://i.imgur.com/sCRAfZ7.jpg
+image: https://i.imgur.com/sCRAfZ7m.jpg
 description: Wofford Heights and Isabella Highlands evacuation orders reduced to evacuation warnings
 tags:
   - french fire
