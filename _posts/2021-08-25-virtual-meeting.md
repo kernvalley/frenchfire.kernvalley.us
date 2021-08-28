@@ -24,7 +24,7 @@ tags:
 
 <div class="status-box info post-correction">
   <h3 class="center">Correction on <time datetime="2021-08-27T19:34-07:34">8/27 7:34 PM</time></h3>
-  <p>In the original post, it was stated that the French Fire <q>appeared to be caused by humans</q>/.
+  <p>In the original post, it was stated that the French Fire <q>appeared to be human caused</q>.
   However, upon reviewing the video in a quieter environment, the correct statement was
   that it was <q>determined to be human caused.</q> The statement was made in the
   <a href="https://www.facebook.com/events/1027717621317377/" rel="noopener noreferrer external">Virtual Meeting</a>
