@@ -48,31 +48,31 @@ screenshots:
     type: image/jpeg
 # https://web.dev/app-shortcuts/
 shortcuts:
-  - name: Pets
-    description: Test article and shortcut
-    url: /pets/
-    icons:
-    # - src: /img/shortcuts/pets.svg
-    #   sizes: 192x192
-    #   type: image/svg+xml
-    - src: /img/shortcuts/pets-192.png
-      sizes: 192x192
-      type: image/png
-    - src: /img/shortcuts/pets-144.png
-      sizes: 144x144
-      type: image/png
-    - src: /img/shortcuts/pets-96.png
-      sizes: 96x96
-      type: image/png
-    - src: /img/shortcuts/pets-72.png
-      sizes: 72x72
-      type: image/png
-    - src: /img/shortcuts/pets-48.png
-      sizes: 48x48
-      type: image/png
-    - src: /img/shortcuts/pets-36.png
-      sizes: 36x36
-      type: image/png
+#   - name: Pets
+#     description: Test article and shortcut
+#     url: /pets/
+#     icons:
+#     # - src: /img/shortcuts/pets.svg
+#     #   sizes: 192x192
+#     #   type: image/svg+xml
+#     - src: /img/shortcuts/pets-192.png
+#       sizes: 192x192
+#       type: image/png
+#     - src: /img/shortcuts/pets-144.png
+#       sizes: 144x144
+#       type: image/png
+#     - src: /img/shortcuts/pets-96.png
+#       sizes: 96x96
+#       type: image/png
+#     - src: /img/shortcuts/pets-72.png
+#       sizes: 72x72
+#       type: image/png
+#     - src: /img/shortcuts/pets-48.png
+#       sizes: 48x48
+#       type: image/png
+#     - src: /img/shortcuts/pets-36.png
+#       sizes: 36x36
+#       type: image/png
   - name: Contacts
     description: List of recent changes
     url: /contacts/
@@ -122,6 +122,31 @@ shortcuts:
       sizes: 48x48
       type: image/png
     - src: /img/shortcuts/news-36.png
+      sizes: 36x36
+      type: image/png
+  - name: Fire Map
+    description: Recent fire map of the French Fire
+    url: /map/
+    icons:
+    # - src: /img/shortcuts/news.svg
+    #   sizes: 192x192
+    #   type: image/svg+xml
+    - src: /img/shortcuts/map-192.png
+      sizes: 192x192
+      type: image/png
+    - src: /img/shortcuts/map-144.png
+      sizes: 144x144
+      type: image/png
+    - src: /img/shortcuts/map-96.png
+      sizes: 96x96
+      type: image/png
+    - src: /img/shortcuts/map-72.png
+      sizes: 72x72
+      type: image/png
+    - src: /img/shortcuts/map-48.png
+      sizes: 48x48
+      type: image/png
+    - src: /img/shortcuts/map-36.png
       sizes: 36x36
       type: image/png
 # https://web.dev/web-share-target/
