@@ -57,6 +57,6 @@ the outage imact more customers than it otherwise would have.
 Two SCE customers in Wofford Heights are still without power. These customers
 should have power restored on 8/29.
 
-Alta Sierra transmission line and distrobution system suffered substantial damage,
+Alta Sierra transmission line and distribution system suffered substantial damage,
 and it may take several weeks before power is restored. SCE will have to do vegetation
 removal in addition to repairs, but will have to wait until it is safe to do so.
