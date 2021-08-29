@@ -1,5 +1,5 @@
 ---
-title: 8/29 Virtual Meeting Highlights
+title: 8/28 Virtual Meeting Highlights
 date: 2021-08-28 16:35
 pinned: true
 index: true
