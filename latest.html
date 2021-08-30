@@ -1,0 +1,22 @@
+---
+layout: null
+permalink: /latest/
+index: false
+---
+{% assign redirect=site.posts.first %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="robots" content="nofollow,noindex" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="color-scheme" content="light dark" />
+		{% include common/redirect.html url=site.posts.first.url delay=3 %}
+		<title>Redirecting</title>
+	</head>
+	<body>
+		<p>You are being redirected. If your browser does not automatically take
+			you to the next page, click <a href="{{ site.posts.first.url | default: '/' | escape }}">here</a>.
+		</p>
+	</body>
+</html>

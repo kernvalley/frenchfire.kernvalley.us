@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Redirecting</title>
+		<meta name="robots" content="nofollow,noindex" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="color-scheme" content="light dark" />
+		{% include common/redirect.html url=page.redirect delay=page.delay %}
+	</head>
+	<body>
+		<p>You are being redirected. If your browser does not automatically take
+			you to the next page, click <a href="{{ page.redirect | default: '/' | escape }}">here</a>.
+		</p>
+	</body>
+</html>
