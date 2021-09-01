@@ -18,6 +18,10 @@ tags:
   - fire
   - wofford heights
   - kernville
+author:
+  "@type": Person
+  sameAs:
+    - https://twitter.com/shgysk8zer0
 ---
 {% include common/imgur.html url="https://i.imgur.com/rpK4VZW.jpg" %}
 

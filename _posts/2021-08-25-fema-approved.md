@@ -18,6 +18,16 @@ tags:
   - wofford heights
   - kernville
   - fema
+author:
+  "@type": GovernmentOrganization
+  name: FEMA
+  url: https://www.fema.gov/
+  sameAs:
+    - https://www.facebook.com/FEMA/
+    - https://twitter.com/femaregion9
+    - https://instagram.com/fema
+    - https://www.youtube.com/fema
+    - https://www.linkedin.com/company/fema/
 ---
 ## [Press Release](https://www.fema.gov/press-release/20210825/fema-fire-management-assistance-granted-french-fire)
 

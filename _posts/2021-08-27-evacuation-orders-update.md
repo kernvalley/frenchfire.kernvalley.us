@@ -14,12 +14,20 @@ tags:
   - evacuation
   - dutch flat
   - black gulch
+author:
+  "@type": GovernmentOrganization
+  name: InciWeb
+  url: https://inciweb.nwcg.gov/
+  sameAs:
+    - https://inciweb.nwcg.gov/
+    - https://twitter.com/inciweb
+    - https://www.instagram.com/inciweb/
 ---
 {% include common/imgur.html url=page.imgur %}
 
 ## ReadyKern Message
 
-### French Fire - UPDATE #15 
+### French Fire - UPDATE #15
 #### SOME Evacuation ORDERS Reduced to Evacuation WARNINGS. Details below.
 
 Este es un mensaje de la seguridad. Para espanol, llame a 2-1-1. Gracias.
