@@ -16,10 +16,18 @@ tags:
   - evacuation
   - dutch flat
   - black gulch
+author:
+  "@type": GovernmentOrganization
+  name: ReadyKern
+  url: https://kerncountyfire.org/education-safety/ready-kern/
+  sameAs:
+    - https://twitter.com/readykern
 ---
 {% include common/imgur.html url=page.imgur %}
+
 ## [French Fire - UPDATE #18](https://inciweb.nwcg.gov/incident/article/7813/65217/)
 ### SOME Evacuation ORDERS Reduced to Evacuation WARNINGS and SOME WARNINGS LIFTED. Details below.
+
 Este es un mensaje de la seguridad. Para espanol, llame a 2-1-1. Gracias.
 
 UPDATE: As of 3:00 p.m. on Monday, August 30, 2021
@@ -40,7 +48,7 @@ Residents should remain alert, aware of their surroundings, and prepared to resp
 Keysville, Shirley Meadows, Alta Sierra, Slick Rock, Wagy Flats, Black Gulch and the area around Fulton Peak south of Windmill Tree Peak (the ranch land area)
 
 ### Evacuation WARNINGS remain in effect for the following communities:
-Wofford Heights, Pala Ranches, Isabella Highlands, Hungry Gulch, and Dutch Flats, 
+Wofford Heights, Pala Ranches, Isabella Highlands, Hungry Gulch, and Dutch Flats,
 
 You can search your address in the French Fire Interactive Evacuation Map posted at [kerncountyfire.org](https://kcfd.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=cd18207578044581a9a9a1255fc88417).
 

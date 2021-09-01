@@ -12,8 +12,14 @@ tags:
   - kern river valley
   - riverkern
   - evacuation
+author:
+  "@type": GovernmentOrganization
+  name: ReadyKern
+  url: https://kerncountyfire.org/education-safety/ready-kern/
+  sameAs:
+    - https://twitter.com/readykern
 ---
-French Fire - UPDATE #12 - Evacuation Warning Added. Details below.
+## French Fire - UPDATE #12 - Evacuation Warning Added. Details below.
 
 Este es un mensaje de la seguridad. Para espanol, llame a 2-1-1. Gracias
 

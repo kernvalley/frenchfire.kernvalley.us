@@ -14,12 +14,18 @@ tags:
   - kernville
   - evacuation
   - readykern
+author:
+  "@type": GovernmentOrganization
+  name: ReadyKern
+  url: https://kerncountyfire.org/education-safety/ready-kern/
+  sameAs:
+    - https://twitter.com/readykern
 ---
 {% include common/imgur.html url=page.imgur %}
 
 **Note: Evacuation map has not updated as of the time of this posting.**
 
-## French Fire - UPDATE #16 
+## French Fire - UPDATE #16
 ### SOME Evacuation ORDERS Reduced to Evacuation WARNINGS. Details below.
 
 Este es un mensaje de la seguridad. Para espanol, llame a 2-1-1. Gracias.

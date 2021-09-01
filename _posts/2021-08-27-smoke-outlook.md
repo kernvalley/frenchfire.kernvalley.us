@@ -17,6 +17,14 @@ tags:
   - fire
   - wofford heights
   - kernville
+author:
+  "@type": GovernmentOrganization
+  name: InciWeb
+  url: https://inciweb.nwcg.gov/
+  sameAs:
+    - https://inciweb.nwcg.gov/
+    - https://twitter.com/inciweb
+    - https://www.instagram.com/inciweb/
 ---
 {% include common/imgur.html url=page.imgur %}
 
