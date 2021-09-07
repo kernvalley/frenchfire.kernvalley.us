@@ -1,0 +1,28 @@
+<div class="card">
+	<h3><a href="{{ include.latest.url }}" class="block link-color underline">
+			{% include common/icon.html icon="link" height="18" width="18" fill="currentColor" %}
+			<span>Fire Stats</span>
+		</a></h3>
+	<ul>
+		<li>
+			<b>Acres Burned:</b>
+			<span>{{ include.latest.acres }}</span>
+		</li>
+		<li>
+			<b>Containment:</b>
+			<span>{{ include.latest.containment }}%</span>
+		</li>
+		<li>
+			<b>Personel:</b>
+			<span>{{ include.latest.personel }}</span>
+		</li>
+		<li>
+			<b>Estimated Containment:</b>
+			<time datetime="{{ include.latest.estimated_containment | date: date_to_xmlschema }}">{{ include.latest.estimated_containment | date: "%b. %e" }}</time>
+		</li>
+	</ul>
+	<div>
+		<b>Last Updated</b>
+		<time datetime="{{ include.latest.date | date: date_to_xmlschema }}">{{ include.latest.date | date: "%a, %b. %e at %r" }}</time>
+	</div>
+</div>
